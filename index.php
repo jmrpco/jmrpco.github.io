@@ -1,20 +1,9 @@
-<?php
-session_start();
-require_once('core/main.class.php');
-$global_app = new Application();
-
-$get = isset($_GET['type'])?$_GET['type']:'';
-if ($get != '') {
-	include($get.'.php');
-	die();
-}
-?>
 <!DOCTYPE HTML>
 <html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title><?php print SiteTitle(); ?></title>
+	<title>James Pediongco Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="" />
 	<meta name="description" content="MySite">
