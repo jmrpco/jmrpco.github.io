@@ -40,7 +40,7 @@ const Hero = () => {
             <div className="relative w-80 h-80 rounded-full bg-gradient-to-tr from-primary/80 to-primary/20 flex items-center justify-center">
               <div className="absolute inset-2 bg-background rounded-full flex items-center justify-center">
                 <img 
-                  src="public/Clear.png"
+                  src="https://jmrpco.github.io/Clear.png"
                   alt="James Pediongco" 
                   className="w-64 h-64 rounded-full object-cover border-4 border-white shadow-lg"
                 />
