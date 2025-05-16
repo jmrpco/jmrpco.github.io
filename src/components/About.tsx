@@ -44,7 +44,7 @@ const About = () => {
           <div className="relative">
             <div className="relative z-10 overflow-hidden rounded-lg shadow-xl">
               <img 
-                src="https://jmrpco.github.io/portfolio/img/4.png" 
+                src="https://jmrpco.github.io/Clear.png"
                 alt="Jeremiah at work" 
                 className="w-full h-auto rounded-lg"
               />
