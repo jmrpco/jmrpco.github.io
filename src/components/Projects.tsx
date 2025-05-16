@@ -59,7 +59,7 @@ const ProjectCard = ({ image, title, description, tags, liveUrl, githubUrl }: Pr
 const Projects = () => {
   const projects = [
     {
-      image: 'https://jmrpco.github.io/portfolio/img/5.png',
+      image: 'https://jmrpco.github.io/deliserv.png',
       title: 'E-commerce Website',
       description: 'A fully responsive e-commerce platform with cart functionality and payment integration.',
       tags: ['React', 'Redux', 'Node.js', 'Express', 'MongoDB'],
@@ -67,7 +67,7 @@ const Projects = () => {
       githubUrl: 'https://github.com/jmrpco',
     },
     {
-      image: 'https://jmrpco.github.io/portfolio/img/2.png',
+      image: 'https://jmrpco.github.io/deliserv.png',
       title: 'Portfolio Website',
       description: 'A personal portfolio showcasing projects and skills with modern design principles.',
       tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
@@ -75,7 +75,7 @@ const Projects = () => {
       githubUrl: 'https://github.com/jmrpco',
     },
     {
-      image: 'https://jmrpco.github.io/portfolio/img/6.png',
+      image: 'https://jmrpco.github.io/deliserv.png',
       title: 'Task Management App',
       description: 'A task manager application with drag and drop functionality for better organization.',
       tags: ['React', 'TypeScript', 'Firebase'],
@@ -83,7 +83,7 @@ const Projects = () => {
       githubUrl: 'https://github.com/jmrpco',
     },
     {
-      image: 'https://jmrpco.github.io/portfolio/img/3.png',
+      image: 'https://jmrpco.github.io/deliserv.png',
       title: 'Blog Platform',
       description: 'A content management system for publishing and managing blog posts.',
       tags: ['PHP', 'MySQL', 'JavaScript', 'Bootstrap'],
