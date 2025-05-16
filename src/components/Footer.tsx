@@ -37,13 +37,13 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Contact</h3>
             <ul className="space-y-2">
               <li className="text-white/70">
-                <span className="font-medium text-white">Email:</span> <a href="#">djacejames@gmail.com</a>
+                <span className="font-medium text-white">Email:</span> <a href="mailto:djacejames@gmail.com">djacejames@gmail.com</a>
               </li>
               <li className="text-white/70">
-                <span className="font-medium text-white">Phone:</span> <a href="tel:+639272256599//">+639272256599</a>
+                <span className="font-medium text-white">Phone:</span> <a href="tel:+09617971345">+09617971345</a>
               </li>
               <li className="text-white/70">
-                <span className="font-medium text-white">Location:</span> Bacolod City, Philippines
+                <span className="font-medium text-white">Location:</span> <a href="https://maps.app.goo.gl/YrkUobUdvJ6PXu1o7" target="_blank">Bacolod City, Philippines</a>
               </li>
             </ul>
           </div>
