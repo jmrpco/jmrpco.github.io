@@ -172,9 +172,9 @@ const Contact = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-base font-medium">Location</h4>
-                  <span className="text-muted-foreground">
+                  <a href="https://maps.app.goo.gl/YrkUobUdvJ6PXu1o7" target="_blank" className="text-muted-foreground hover:text-primary">
                     Bacolod City, Philippines
-                  </span>
+                  </a>
                 </div>
               </div>
             </div>
