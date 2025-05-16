@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="container-custom">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Jeremiah Presto</h3>
+            <h3 className="text-xl font-bold mb-4">James Pediongco</h3>
             <p className="text-white/70 mb-4">
               A passionate web developer focused on creating elegant, efficient, and user-friendly websites.
             </p>
@@ -51,7 +51,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/70">
-            © {currentYear} Jeremiah Presto. All rights reserved.
+            © {currentYear} James Pediongco. All rights reserved.
           </p>
           
           <button 
