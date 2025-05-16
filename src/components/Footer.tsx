@@ -40,7 +40,7 @@ const Footer = () => {
                 <span className="font-medium text-white">Email:</span> <a href="mailto:djacejames@gmail.com">djacejames@gmail.com</a>
               </li>
               <li className="text-white/70">
-                <span className="font-medium text-white">Phone:</span> <a href="tel:+09617971345">+09617971345</a>
+                <span className="font-medium text-white">Phone:</span> <a href="tel:09617971345">09617971345</a>
               </li>
               <li className="text-white/70">
                 <span className="font-medium text-white">Location:</span> <a href="https://maps.app.goo.gl/YrkUobUdvJ6PXu1o7" target="_blank">Bacolod City, Philippines</a>
