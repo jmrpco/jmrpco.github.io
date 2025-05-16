@@ -15,7 +15,7 @@ const Hero = () => {
               Web Developer
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Hi, I'm <span className="text-primary">Jeremiah Presto</span>
+              Hi, I'm <span className="text-primary">James Pediongco</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
               I build exceptional digital experiences that are fast, accessible, visually appealing, and responsive.
@@ -41,7 +41,7 @@ const Hero = () => {
               <div className="absolute inset-2 bg-background rounded-full flex items-center justify-center">
                 <img 
                   src="https://jmrpco.github.io/portfolio/img/1.JPG"
-                  alt="Jeremiah Presto" 
+                  alt="James Pediongco" 
                   className="w-64 h-64 rounded-full object-cover border-4 border-white shadow-lg"
                 />
               </div>
