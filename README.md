@@ -1,3 +1,5 @@
+patch 1.0
+
 # Welcome to your Lovable project
 
 ## Project info
