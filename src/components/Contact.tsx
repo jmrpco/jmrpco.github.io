@@ -148,8 +148,8 @@ const Contact = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-base font-medium">Email</h4>
-                  <a href="mailto:jay@example.com" className="text-muted-foreground hover:text-primary">
-                    jay@example.com
+                  <a href="mailto:djacejames@gmail.com" className="text-muted-foreground hover:text-primary">
+                    djacejames@gmail.com
                   </a>
                 </div>
               </div>
@@ -160,8 +160,8 @@ const Contact = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-base font-medium">Phone</h4>
-                  <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary">
-                    +1 (234) 567-890
+                  <a href="tel:09617971345" className="text-muted-foreground hover:text-primary">
+                    09617971345
                   </a>
                 </div>
               </div>
@@ -173,7 +173,7 @@ const Contact = () => {
                 <div className="ml-4">
                   <h4 className="text-base font-medium">Location</h4>
                   <span className="text-muted-foreground">
-                    Manila, Philippines
+                    Bacolod City, Philippines
                   </span>
                 </div>
               </div>
@@ -194,7 +194,7 @@ const Contact = () => {
                     </svg>
                   </a>
                   <a 
-                    href="#" 
+                    href="https://www.linkedin.com/in/james-pediongco-81281a150/" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="bg-white p-3 rounded-full shadow-sm hover:shadow-md transition-shadow"
@@ -204,7 +204,7 @@ const Contact = () => {
                     </svg>
                   </a>
                   <a 
-                    href="#" 
+                    href="https://x.com/acejames123" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="bg-white p-3 rounded-full shadow-sm hover:shadow-md transition-shadow"
@@ -214,7 +214,7 @@ const Contact = () => {
                     </svg>
                   </a>
                   <a 
-                    href="#" 
+                    href="https://www.instagram.com/jamespediongco/" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="bg-white p-3 rounded-full shadow-sm hover:shadow-md transition-shadow"
