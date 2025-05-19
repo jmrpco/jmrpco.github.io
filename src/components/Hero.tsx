@@ -136,11 +136,13 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative hidden md:flex justify-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            {/* Profile circle container with glow effect */}
-            <div className="relative w-[330px] h-[330px] rounded-full animate-pulse-glow">
+            {/* Profile circle container with outer circle similar to reference image */}
+            <div className="relative flex items-center justify-center">
+              <div className="absolute w-[350px] h-[350px] rounded-full bg-[#a8c7fa]/80 animate-pulse-glow"></div>
+              
               {/* Main profile container */}
-              <div className="relative w-80 h-80 rounded-full bg-gradient-to-tr from-primary/80 to-primary/20 flex items-center justify-center mx-auto my-auto">
-                {/* Moving circles - more visible now */}
+              <div className="relative w-80 h-80 rounded-full bg-gradient-to-tr from-primary/80 to-primary/20 flex items-center justify-center mx-auto my-auto z-10">
+                {/* Moving circles - visible */}
                 <div 
                   ref={circleRef}
                   className="absolute -top-10 -right-10 w-16 h-16 bg-[#9b87f5] rounded-full"
@@ -166,11 +168,6 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            
-            {/* Decorative background elements */}
-            <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-secondary/70 rounded-full blur-sm animate-float"></div>
-            <div className="absolute -top-10 -left-10 w-24 h-24 bg-primary/20 rounded-full blur-sm" 
-                 style={{animation: "float 7s ease-in-out infinite"}}></div>
           </div>
         </div>
       </div>
