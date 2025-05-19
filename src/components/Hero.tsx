@@ -5,6 +5,7 @@ import { useEffect, useRef } from 'react';
 const Hero = () => {
   const circleRef = useRef<HTMLDivElement>(null);
   const outerCircleRef = useRef<HTMLDivElement>(null);
+  const thirdCircleRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     // First animated circle
@@ -16,7 +17,7 @@ const Hero = () => {
       let yPosition = 0;
       let xSpeed = 0.7;
       let ySpeed = 0.5;
-      const maxRange = 30; // Maximum movement range
+      const maxRange = 25; // Maximum movement range
 
       const animate = () => {
         if (!circle) return;
@@ -38,13 +39,13 @@ const Hero = () => {
       animate();
     };
     
-    // Second animated circle with different movement pattern
+    // Second animated circle with circular movement pattern
     const animateOuterCircle = () => {
       const circle = outerCircleRef.current;
       if (!circle) return;
 
       let angle = 0;
-      const radius = 15;
+      const radius = 20;
       const speed = 0.01;
 
       const animate = () => {
@@ -63,9 +64,36 @@ const Hero = () => {
       
       animate();
     };
+
+    // Third animated circle with different circular pattern
+    const animateThirdCircle = () => {
+      const circle = thirdCircleRef.current;
+      if (!circle) return;
+
+      let angle = Math.PI; // Start at different position
+      const radius = 18;
+      const speed = 0.015;
+
+      const animate = () => {
+        if (!circle) return;
+        
+        // Create circular motion in opposite direction
+        const x = Math.sin(angle) * radius;
+        const y = Math.cos(angle) * radius;
+        angle += speed;
+        
+        // Apply the new position with a transform
+        circle.style.transform = `translate(${x}px, ${y}px)`;
+        
+        requestAnimationFrame(animate);
+      };
+      
+      animate();
+    };
     
     animateCircle();
     animateOuterCircle();
+    animateThirdCircle();
   }, []);
 
   return (
@@ -112,15 +140,20 @@ const Hero = () => {
             <div className="relative w-[330px] h-[330px] rounded-full animate-pulse-glow">
               {/* Main profile container */}
               <div className="relative w-80 h-80 rounded-full bg-gradient-to-tr from-primary/80 to-primary/20 flex items-center justify-center mx-auto my-auto">
-                {/* Moving circles */}
+                {/* Moving circles - more visible now */}
                 <div 
                   ref={circleRef}
-                  className="absolute -top-10 -right-10 w-20 h-20 bg-primary/40 rounded-full blur-md"
+                  className="absolute -top-10 -right-10 w-16 h-16 bg-[#9b87f5] rounded-full"
                 ></div>
                 
                 <div 
                   ref={outerCircleRef}
-                  className="absolute -bottom-8 -left-8 w-16 h-16 bg-secondary/40 rounded-full blur-md"
+                  className="absolute -bottom-8 -left-8 w-14 h-14 bg-[#33C3F0] rounded-full"
+                ></div>
+
+                <div 
+                  ref={thirdCircleRef}
+                  className="absolute top-14 -right-8 w-12 h-12 bg-[#8B5CF6] rounded-full"
                 ></div>
                 
                 {/* Profile image container */}
