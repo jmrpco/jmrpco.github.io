@@ -1,4 +1,3 @@
-
 import { Monitor, Settings, Database } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 
@@ -15,7 +14,7 @@ const Skills = () => {
         { name: "Gatsby", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-original.svg", iconColor: "#663399" },
         { name: "Material-UI", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg", iconColor: "#0081CB" },
         { name: "Bootstrap", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", iconColor: "#7952B3" },
-        { name: "Tailwind", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg", iconColor: "#38B2AC" }
+        { name: "Tailwind", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", iconColor: "#38B2AC" }
       ]
     },
     {
