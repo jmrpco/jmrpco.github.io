@@ -40,16 +40,16 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="section-padding bg-[#1A1F2C] text-white">
+    <section id="skills" className="section-padding bg-gradient-to-br from-background to-secondary/30">
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Professional Skills</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Professional Skills</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
         </div>
         
         <div className="grid md:grid-cols-3 gap-6">
           {skillCategories.map((category, index) => (
-            <div key={index} className="bg-[#242B3E] rounded-lg overflow-hidden shadow-xl">
+            <div key={index} className="bg-card rounded-lg overflow-hidden shadow-xl border border-border">
               {/* Category header with accent color */}
               <div className="h-2 bg-[#FF6B9E]"></div>
               
@@ -59,7 +59,7 @@ const Skills = () => {
                   <div className="text-[#FF6B9E] mb-4">
                     <category.icon size={48} />
                   </div>
-                  <h3 className="text-3xl font-bold text-white">{category.title}</h3>
+                  <h3 className="text-3xl font-bold">{category.title}</h3>
                 </div>
                 
                 {/* Skills list - vertical layout */}
@@ -74,7 +74,7 @@ const Skills = () => {
                           style={{ filter: skill.name === 'Next.js' ? 'invert(1)' : 'none' }}
                         />
                       </div>
-                      <p className="text-white text-lg font-medium">{skill.name}</p>
+                      <p className="text-lg font-medium">{skill.name}</p>
                     </div>
                   ))}
                 </div>
