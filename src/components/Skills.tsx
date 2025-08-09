@@ -43,7 +43,8 @@ const Skills = () => {
       icon: Wrench,
       skills: [
         { name: "NPM", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" },
-        { name: "Git", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" }
+        { name: "Git", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+        { name: "Salesforce", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg" }
       ]
     }
   ];
@@ -58,27 +59,41 @@ const Skills = () => {
         
         <div className="space-y-12">
           {skillCategories.map((category, index) => (
-            <div key={index} className="bg-card rounded-lg p-8 shadow-xl border border-border">
+            <div 
+              key={index} 
+              className="bg-card/80 backdrop-blur-sm rounded-2xl p-8 shadow-2xl border border-border/50 hover:shadow-3xl transition-all duration-500 animate-fade-in"
+              style={{ animationDelay: `${index * 150}ms` }}
+            >
               {/* Category title with icon */}
               <div className="flex items-center gap-4 mb-8">
-                <div className="text-primary">
+                <div className="text-primary p-3 bg-primary/10 rounded-xl animate-pulse-glow">
                   <category.icon size={32} />
                 </div>
-                <h3 className="text-2xl font-bold">{category.title}:</h3>
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                  {category.title}
+                </h3>
               </div>
               
-              {/* Skills grid - horizontal layout like the reference */}
-              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4">
+              {/* Skills grid - enhanced with staggered animations */}
+              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-6">
                 {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex} className="group flex flex-col items-center gap-3">
-                    <div className="relative w-16 h-16 bg-gray-800 rounded-xl p-3 flex items-center justify-center shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:shadow-xl">
+                  <div 
+                    key={skillIndex} 
+                    className="group flex flex-col items-center gap-3 animate-fade-in hover-scale"
+                    style={{ animationDelay: `${(index * 150) + (skillIndex * 100)}ms` }}
+                  >
+                    <div className="relative w-18 h-18 bg-white rounded-2xl p-4 flex items-center justify-center shadow-xl transition-all duration-500 group-hover:scale-110 group-hover:shadow-2xl group-hover:bg-gradient-to-br group-hover:from-white group-hover:to-primary/5 group-hover:-translate-y-2">
+                      {/* Subtle glow effect */}
+                      <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl"></div>
                       <img 
                         src={skill.iconUrl} 
                         alt={skill.name}
-                        className="w-10 h-10 object-contain"
+                        className="w-12 h-12 object-contain relative z-10 transition-transform duration-300 group-hover:scale-110"
                       />
                     </div>
-                    <span className="text-sm font-medium text-center leading-tight">{skill.name}</span>
+                    <span className="text-sm font-semibold text-center leading-tight transition-colors duration-300 group-hover:text-primary">
+                      {skill.name}
+                    </span>
                   </div>
                 ))}
               </div>
