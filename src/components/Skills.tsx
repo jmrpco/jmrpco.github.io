@@ -7,35 +7,34 @@ const Skills = () => {
     {
       title: "Front-End",
       icon: Monitor,
-      color: "#FF6B9E",
+      color: "#3B82F6",
       skills: [
-        { name: "VUE", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg", iconColor: "#4FC08D" },
-        { name: "Metronic", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", iconColor: "#7952B3" },
-        { name: "HTML 5", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", iconColor: "#E34F26" },
-        { name: "Bootstrap", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", iconColor: "#7952B3" },
-        { name: "Sass", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg", iconColor: "#CC6699" },
-        { name: "jQuery", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg", iconColor: "#0769AD" },
-        { name: "NPM", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg", iconColor: "#CB3837" },
-        { name: "CSS", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", iconColor: "#1572B6" }
+        { name: "VUE", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg", iconColor: "#1E40AF" },
+        { name: "HTML 5", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", iconColor: "#2563EB" },
+        { name: "Bootstrap", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", iconColor: "#1D4ED8" },
+        { name: "Sass", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg", iconColor: "#3730A3" },
+        { name: "jQuery", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg", iconColor: "#1E3A8A" },
+        { name: "NPM", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg", iconColor: "#1E40AF" },
+        { name: "CSS", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", iconColor: "#2563EB" }
       ]
     },
     {
       title: "Back-End",
       icon: Settings,
-      color: "#FF6B9E",
+      color: "#3B82F6",
       skills: [
-        { name: "PHP", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg", iconColor: "#777BB4" },
-        { name: "Laravel", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg", iconColor: "#FF2D20" },
-        { name: "Codeigniter", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg", iconColor: "#EE4323" }
+        { name: "PHP", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg", iconColor: "#1E40AF" },
+        { name: "Laravel", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg", iconColor: "#2563EB" },
+        { name: "Codeigniter", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg", iconColor: "#1D4ED8" }
       ]
     },
     {
       title: "Database",
       icon: Database,
-      color: "#FF6B9E",
+      color: "#3B82F6",
       skills: [
-        { name: "MySQL", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", iconColor: "#4479A1" },
-        { name: "MariaDB", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg", iconColor: "#003545" }
+        { name: "MySQL", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", iconColor: "#1E40AF" },
+        { name: "MariaDB", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg", iconColor: "#2563EB" }
       ]
     }
   ];
@@ -52,12 +51,12 @@ const Skills = () => {
           {skillCategories.map((category, index) => (
             <div key={index} className="bg-card rounded-lg overflow-hidden shadow-xl border border-border">
               {/* Category header with accent color */}
-              <div className="h-2 bg-[#FF6B9E]"></div>
+              <div className="h-2 bg-[#3B82F6]"></div>
               
               <div className="p-8">
                 {/* Category title with icon */}
                 <div className="flex flex-col items-center justify-center mb-8">
-                  <div className="text-[#FF6B9E] mb-4">
+                  <div className="text-[#3B82F6] mb-4">
                     <category.icon size={48} />
                   </div>
                   <h3 className="text-3xl font-bold">{category.title}</h3>
