@@ -9,12 +9,14 @@ const Skills = () => {
       icon: Monitor,
       color: "#FF6B9E",
       skills: [
-        { name: "React", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", iconColor: "#61DAFB" },
-        { name: "Next.js", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg", iconColor: "#000000" },
-        { name: "Gatsby", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-original.svg", iconColor: "#663399" },
-        { name: "Material-UI", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg", iconColor: "#0081CB" },
+        { name: "VUE", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg", iconColor: "#4FC08D" },
+        { name: "Metronic", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", iconColor: "#7952B3" },
+        { name: "HTML 5", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", iconColor: "#E34F26" },
         { name: "Bootstrap", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", iconColor: "#7952B3" },
-        { name: "Tailwind", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", iconColor: "#38B2AC" }
+        { name: "Sass", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg", iconColor: "#CC6699" },
+        { name: "jQuery", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg", iconColor: "#0769AD" },
+        { name: "NPM", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg", iconColor: "#CB3837" },
+        { name: "CSS", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", iconColor: "#1572B6" }
       ]
     },
     {
@@ -22,9 +24,9 @@ const Skills = () => {
       icon: Settings,
       color: "#FF6B9E",
       skills: [
-        { name: "Node/Express", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", iconColor: "#68A063" },
-        { name: "GraphQL", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg", iconColor: "#E535AB" },
-        { name: "Python/Flask", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", iconColor: "#3776AB" }
+        { name: "PHP", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg", iconColor: "#777BB4" },
+        { name: "Laravel", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg", iconColor: "#FF2D20" },
+        { name: "Codeigniter", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg", iconColor: "#EE4323" }
       ]
     },
     {
@@ -33,7 +35,7 @@ const Skills = () => {
       color: "#FF6B9E",
       skills: [
         { name: "MySQL", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", iconColor: "#4479A1" },
-        { name: "MongoDB", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", iconColor: "#47A248" }
+        { name: "MariaDB", iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg", iconColor: "#003545" }
       ]
     }
   ];
