@@ -1,5 +1,6 @@
 
 import type { Config } from "tailwindcss";
+import animate from "tailwindcss-animate";
 
 export default {
 	darkMode: ["class"],
@@ -84,10 +85,10 @@ export default {
 				'slide-in': 'slide-in 0.5s ease-out forwards'
 			},
 			fontFamily: {
-				sans: ['Poppins', 'sans-serif'],
-				heading: ['Montserrat', 'sans-serif'],
+				sans: ['Arial', 'Helvetica', 'sans-serif'],
+				heading: ['Arial', 'Helvetica', 'sans-serif'],
 			}
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [animate],
 } satisfies Config;

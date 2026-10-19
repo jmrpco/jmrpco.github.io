@@ -1,0 +1,41 @@
+{
+  "name": "James Pediongco",
+  "role": "Senior Software Developer",
+  "experienceYears": "8+",
+  "location": "Bacolod City, Philippines",
+  "email": "jamespediongco@gmail.com",
+  "phone": "09617971345",
+  "cvUrl": "/JamesMichael_Pediongco_Updated_CV.pdf",
+  "fullName": "James Michael R. Pediongco",
+  "alternateEmail": "djacejames@gmail.com",
+  "currentCompany": "RVN Technology Solutions, Inc.",
+  "focus": "Full-stack, CRM & API integration",
+  "leadership": "CRM team lead \u00b7 loan systems",
+  "education": [
+    {
+      "degree": "Bachelor of Science: Engineering Technology",
+      "institution": "Technological University of the Philippines",
+      "location": "Talisay City, Philippines",
+      "dateRange": "Jan 2022 \u2013 Jul 2022"
+    },
+    {
+      "degree": "Computer Engineering Technology",
+      "institution": "Technological University of the Philippines",
+      "location": "Talisay City, Philippines",
+      "dateRange": "Jun 2014 \u2013 Jun 2017"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Solutions Architect Accreditation",
+      "issuer": "Workplace from Meta",
+      "date": "Oct 2022"
+    },
+    {
+      "title": "Full Stack Web Developer Bootcamp",
+      "issuer": "Udemy",
+      "date": "Jun 2021",
+      "credentialId": "UC-45dd7ca8-9a4d-41f4-a763-53e39f5cc677"
+    }
+  ]
+}
