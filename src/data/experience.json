@@ -1,0 +1,129 @@
+[
+  {
+    "id": "rvn-senior-2024",
+    "title": "Senior Software Developer",
+    "company": "RVN Technology Solutions, Inc.",
+    "location": "Las Pi\u00f1as",
+    "year": "2024",
+    "startDate": "2024-02",
+    "dateRange": "Feb 2024 \u2013 Present",
+    "current": true,
+    "summary": "Team lead developing CRM solutions for loan systems.",
+    "responsibilities": [
+      "Lead a team in the development of CRM solutions for loan systems."
+    ],
+    "technologies": [
+      "CRM development",
+      "Loan systems",
+      "Team leadership"
+    ],
+    "order": 1
+  },
+  {
+    "id": "talentview-2022",
+    "title": "Software Developer / UI-UX",
+    "company": "TalentView",
+    "location": "Mandaluyong",
+    "year": "2022",
+    "startDate": "2022-10",
+    "endDate": "2024-01",
+    "dateRange": "Oct 2022 \u2013 Jan 2024",
+    "current": false,
+    "responsibilities": [
+      "Collaborated with product managers and UX designers to translate requirements into interfaces aligned with business objectives.",
+      "Enhanced project platforms and built functional web applications using JavaScript, HTML, and CSS.",
+      "Applied testing and debugging practices to maintain program logic.",
+      "Built and customized WordPress-based applications for project requirements and client needs."
+    ],
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "WordPress",
+      "UI/UX",
+      "Testing & debugging"
+    ],
+    "order": 2
+  },
+  {
+    "id": "accenture-2022",
+    "title": "Application Development Senior Analyst",
+    "company": "Accenture",
+    "location": "Taguig",
+    "year": "2022",
+    "startDate": "2022-06",
+    "endDate": "2022-09",
+    "dateRange": "Jun 2022 \u2013 Sep 2022",
+    "current": false,
+    "responsibilities": [
+      "Completed Salesforce Bootcamp, covering administration and development.",
+      "Acquired proficiency in Apex programming and Lightning Web Components (LWC).",
+      "Developed strategies for application development frameworks and improved development processes."
+    ],
+    "technologies": [
+      "Salesforce",
+      "Apex",
+      "Lightning Web Components",
+      "Salesforce administration"
+    ],
+    "order": 3
+  },
+  {
+    "id": "rvn-senior-2021",
+    "title": "Senior Software Developer",
+    "company": "RVN Technology Solutions, Inc.",
+    "location": "Las Pi\u00f1as",
+    "year": "2021",
+    "startDate": "2021-04",
+    "endDate": "2022-06",
+    "dateRange": "Apr 2021 \u2013 Jun 2022",
+    "current": false,
+    "responsibilities": [
+      "Trained and guided new developers in company design and review standards.",
+      "Maintained assigned programs and diagnosed and resolved logic and coding errors.",
+      "Led development of databases, programs, and processes for enterprise integration and implementation.",
+      "Led development of a Web Ordering Platform spanning mobile and web applications.",
+      "Integrated three payment channels: PayPal, PayMongo, and GCash.",
+      "Redesigned the SMS Text Messenger Web App to improve functionality and user experience.",
+      "Created projects using the Laravel framework."
+    ],
+    "technologies": [
+      "Laravel",
+      "API integration",
+      "PayPal",
+      "PayMongo",
+      "GCash",
+      "Database development",
+      "Developer mentoring"
+    ],
+    "order": 4
+  },
+  {
+    "id": "rvn-junior-2018",
+    "title": "Junior Software Developer",
+    "company": "RVN Technology Solutions, Inc.",
+    "location": "Las Pi\u00f1as",
+    "year": "2018",
+    "startDate": "2018-04",
+    "endDate": "2021-04",
+    "dateRange": "Apr 2018 \u2013 Apr 2021",
+    "current": false,
+    "responsibilities": [
+      "Worked with project managers to define achievable coding milestones and contributed across the systems development lifecycle, from requirements to production releases.",
+      "Refactored, modularized, and modernized legacy code to improve functionality and reduce operating costs.",
+      "Developed two web applications from inception to completion and contributed to SMS Text Messenger and CRM systems.",
+      "Led a team developing an RFID School System.",
+      "Integrated APIs for Facebook, Messenger, WhatsApp, Viber, and Twitter.",
+      "Integrated Google Cloud Platform APIs, including Google Maps."
+    ],
+    "technologies": [
+      "Legacy modernization",
+      "CRM systems",
+      "RFID",
+      "Social media APIs",
+      "Google Maps",
+      "Team leadership"
+    ],
+    "order": 5
+  }
+]
