@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "build:dev": "next build",
+    "build": "next build && node -e \"const f=require('fs');f.rmSync('dist',{recursive:true,force:true});f.cpSync('out','dist',{recursive:true})\"",
+    "build:dev": "npm run build",
     "preview": "serve out",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit"
